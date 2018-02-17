@@ -1,0 +1,20 @@
+body{
+  background-color: #4d4d4d;
+}
+
+.controls{
+  text-align: center;
+  font-size: 25px;
+}
+.controls #start, #stop{
+  color: white;
+  text-decoration: none;
+  margin: 35px;
+}
+.stopwatch{
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 50px;
+  color: white;
+}
