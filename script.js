@@ -11,18 +11,6 @@ function pad0(value){
 }
 
 class Stopwatch extends React.Component {
-  render() {
-    return 
-    <div className="container">
-      <nav className="controls">
-        <button className="button start" onClick={this.start}><i className="fa fa-play" aria-hidden="true"></i> Start</button>
-        <button className="button stop" onClick={this.stop}><i className="fa fa-pause" aria-hidden="true" ></i> Pause</button>
-      </nav>
-      <div className="stopwatch">
-       {this.state.display}
-      </div>
-  }
-
   constructor(){
     super()
 
@@ -34,7 +22,6 @@ class Stopwatch extends React.Component {
   this.print(this.times);
 }
 
-
 reset() {
           this.times = {
               minutes: 0,
@@ -42,6 +29,19 @@ reset() {
               miliseconds: 0
           };
       }
+
+
+  render() {
+    return
+    <div className="container">
+      <nav className="controls">
+        <button className="button start" onClick={this.start}><i className="fa fa-play" aria-hidden="true"></i> Start</button>
+        <button className="button stop" onClick={this.stop}><i className="fa fa-pause" aria-hidden="true" ></i> Pause</button>
+      </nav>
+      <div className="stopwatch">
+       {this.state.display}
+      </div>
+  }
 
 
 start(){
