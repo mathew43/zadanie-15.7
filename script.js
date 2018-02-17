@@ -41,6 +41,7 @@ reset() {
       <div className="stopwatch">
        {this.state.display}
       </div>
+      </div>
   }
 
 
@@ -104,4 +105,5 @@ class App extends React.Component {
 };
 
 const app = <App />;
+
 ReactDOM.render(app, document.getElementById('app'));
