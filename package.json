@@ -4,18 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": " babel script.js --watch --out-file script-compiled.js"
+    "start":" babel script.js --watch --out-file script-compiled.js"
   },
   "author": "",
   "license": "ISC",
-  "presets": [
-    "latest"
-  ],
+  "presets": ["latest"],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1"
-  },
-  "dependencies": {
-    "babel-preset-react": "^6.24.1"
   }
 }
