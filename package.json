@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "http-serve ./",
     "start": " babel script.js --watch --out-file script-compiled.js"
   },
   "author": "",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "http-serve": "^1.0.1"
   }
 }
